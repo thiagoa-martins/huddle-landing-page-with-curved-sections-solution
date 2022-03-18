@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/thiagoa-martins/huddle-landing-page-with-curved-sections-solution)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/thiagoa-martins/huddle-landing-page-with-curved-sections-solution)
+- Live Site URL: [github pages](https://thiagoa-martins.github.io/huddle-landing-page-with-curved-sections-solution/)
 
 ## My process
 
@@ -95,6 +95,6 @@ In this project I was able to develop my box positioning skills, learn new ways 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/thiagoa-martins)
-- Twitter - [@yourusername](https://www.twitter.com/thiagoa_martins)
+- Frontend Mentor - [thiagoa-martins](https://www.frontendmentor.io/profile/thiagoa-martins)
+- Twitter - [thiagoa_martins](https://www.twitter.com/thiagoa_martins)
 
