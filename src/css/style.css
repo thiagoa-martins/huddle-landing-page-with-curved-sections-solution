@@ -1,0 +1,632 @@
+:root {
+    --color-primary-pink: hsl(322, 100%, 66%);
+    --color-primary-light-pink: hsl(321, 100%, 78%);
+    --color-primary-light-red: hsl(0, 100%, 63%);
+
+    --color-neutral-very-dark-cyan: hsl(192, 100%, 9%);
+    --color-neutral-very-pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-neutral-very-dark-cyan);
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.headings {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--color-neutral-very-dark-cyan);
+}
+
+.paragraphs {
+    line-height: 25px;
+}
+/*************
+*    HEADER
+*************/
+.header {
+    padding: 60px 0 180px;
+}
+
+.header .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .head button {
+    border: 2px solid var(--color-primary-pink);
+    color: var(--color-primary-pink);
+    background-color: var(--color-neutral-very-dark-blue);
+    border-radius: 40px;
+    padding: 0 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header .head button:hover {
+    border: 2px solid var(--color-primary-light-pink);
+    color: var(--color-primary-light-pink);
+    transition: 300ms all;
+}
+/*************
+*    ABOUT
+*************/
+.about h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.about .communities {
+    width: 480px;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.about .communities p {
+    margin: 2em 0;
+}
+
+.about .communities button {
+    border: none;
+    color: var(--color-neutral-very-pale-blue);
+    background-color: var(--color-primary-pink);
+    border-radius: 40px;
+    padding: 25px 80px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #bbbcbd;
+    transition: 800ms all;
+}
+
+.about .communities button:hover {
+    background-color: var(--color-primary-light-pink);
+    transform: scale(1.2);
+}
+
+.about .screen-mockups {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.about .dates {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.about .dates div img,
+.about .dates div span {
+    display: block;
+}
+
+.about .dates div img:first-of-type {
+    width: 25px;
+}
+
+.about .dates div img + span { 
+    font-size: 65px;
+    color: var(--color-neutral-very-dark-cyan);
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+.about .dates div span + span {
+    color: rgba(0, 37, 46, 0.6);
+    text-align: center;
+}
+
+.bg-image {
+    height: 270px;
+    width: 100%;
+}
+
+.image-top-1 {
+    background-image: url('../images/bg-section-top-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.image-bottom-1 {
+    background-image: url('../images/bg-section-bottom-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.image-top-2 {
+    background-image: url('../images/bg-section-top-desktop-2.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.image-bottom-2 {
+    background-image: url('../images/bg-section-bottom-desktop-2.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.image-footer-top {
+    background-image: url('../images/bg-footer-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+/*************
+*    BENEFITS
+*************/
+
+.benefits .box-benefits .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.benefits .box1,
+.benefits .box3 {
+    background-color: #F6FBFF;
+}
+
+.benefits .box1 .text {
+    width: 490px;
+}
+
+.benefits .box2 .text {
+    width: 530px;
+}
+
+.benefits .box3 .text {
+    width: 520px;
+}
+
+.benefits .box-benefits .text h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.benefits .illustration-grow-together,
+.benefits .illustration-flowing-conversation,
+.illustration-your-users {
+    display: block;
+    width: 400px;
+}
+
+.benefits .started {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.benefits .started h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.benefits .started button {
+    border: none;
+    color: var(--color-neutral-very-pale-blue);
+    background-color: var(--color-primary-pink);
+    border-radius: 40px;
+    padding: 25px 80px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #bbbcbd;
+    transition: 800ms all;
+}
+
+.benefits .started button:hover {
+    background-color: var(--color-primary-light-pink);
+    transform: scale(1.2);
+}
+/*************
+*   SOCIALS
+*************/
+.socials {
+    background-color: #00252E;
+    background-size: 100%;
+    color: var(--color-neutral-very-pale-blue);  
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.socials .content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00252E;
+    padding: 5em 0;
+}
+
+.socials .contact a {
+    text-decoration: none;
+    color: var(--color-neutral-very-pale-blue);
+}
+
+.socials .contact .contact-us {
+    display: block;
+    margin: 1em 0;   
+}
+
+.socials .contact .contact-us img {
+    width: 15px;
+    margin-right: 1em;
+}
+
+.socials .contact .icons {
+    margin: 4em 0;
+}
+
+.socials .contact .icons a img,
+.socials .contact .icons a svg {
+    width: 20px;
+    margin-right: 1em;
+}
+
+.socials .contact .text {
+    width: 280px;
+}
+
+.socials .newsletter .text {
+    width: 320px;
+}
+
+.socials .newsletter .text h4 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.socials .contact .text p,
+.socials .newsletter .text p {
+    margin-top: 1em;
+}
+
+.socials .newsletter form {
+    margin-top: 2em;
+}
+
+.socials .newsletter form input {
+    border: none;
+    border-radius: 5px;
+}
+
+.socials .newsletter form .yourmail {
+    padding: 15px 100px 15px 15px;   
+}
+
+.socials .newsletter form .yourmail:focus {
+    outline-color: var(--color-primary-light-red);
+    outline-style: solid;
+    outline-width: thin;
+}
+
+.socials .newsletter form .subscribe {
+    margin-left: 2em;
+    padding: 15px 40px;
+    color: var(--color-neutral-very-pale-blue);
+    background-color: var(--color-primary-pink);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 800ms all;
+}
+
+.socials .newsletter form .subscribe:hover {
+    background-color: var(--color-primary-light-pink);
+    transform: scale(1.2);  
+}
+
+footer { background-color: #00252E; padding: 1em 0; }
+
+@media screen and (max-width: 940px) {
+    .container {
+        padding: 0 1em;
+        width: auto;
+    }
+
+    .content {
+        padding: 0 2em;
+    }
+
+    .about h2 span {
+        display: block;
+    }
+
+    .about .screen-mockups {
+        width: 100%;
+    }
+
+    
+    .benefits .box1 .content,
+    .benefits .box3 .content {
+        flex-direction: column-reverse;
+    }
+
+    .benefits .box2 .content {
+        flex-direction: column;
+    }
+
+    .benefits .box-benefits .text h3 {
+        margin-top: 3em;
+    }
+
+    .benefits .box1 .content .text,
+    .benefits .box2 .content .text,
+    .benefits .box3 .content .text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .image-top-1 {
+        background-image: url('../images/bg-section-top-mobile-1.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+    
+    .image-bottom-1 {
+        background-image: url('../images/bg-section-bottom-mobile-1.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+    }
+    
+    .image-top-2 {
+        background-image: url('../images/bg-section-top-mobile-2.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+    
+    .image-bottom-2 {
+        background-image: url('../images/bg-section-bottom-mobile-2.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+    }
+    
+    .image-footer-top {
+        background-image: url('../images/bg-footer-top-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+
+    .benefits .box1, .benefits .box3 {
+        padding-bottom: 5em;
+    }
+
+    .benefits .box1 {
+        padding-top: 5em;
+    }
+
+    .benefits .started {
+        margin-bottom: 50px;
+    }
+
+    .socials .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .socials .content .newsletter,
+    .socials .content .contact {
+        display: inline-block;
+    }
+
+    .socials .newsletter form {
+        margin: 2em 0 5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about .dates {
+        width: 450px;
+    }
+
+    .benefits .box1 .content .text,
+    .benefits .box2 .content .text,
+    .benefits .box3 .content .text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 60px 0 120px;
+    }
+
+    .container, .header .container, .about .container,
+    .benefits .container, .socials .container, .bg-desktop,
+    .about .dates {
+        width: auto;
+    }
+
+    .about h2 {
+        font-size: 2.1em;
+        line-height: 40px;
+    }
+
+    .about .communities {
+        width: auto;
+    }
+    
+    .about .dates {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .about .dates .communities-formed {
+        margin-bottom: 5em;
+    }
+
+    .bg-desktop {
+        height: 150px;
+    }
+
+    .benefits .box-benefits .container img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header .head {
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .header .head h1 a img {
+        width: 140px;
+    }
+
+    .header .head button {
+        padding: 5px 15px;
+    }
+    
+    .about h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .about .communities button {
+        padding: 15px 40px;
+    }
+
+    .benefits .box-benefits .content .text h3 {
+        font-size: 1.5em;
+    }
+    
+    .benefits .started h3 {
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    .benefits .started button {
+        padding: 15px 40px;
+    }
+
+    .socials .content {
+        align-items: flex-start;
+        padding: 0 2em;
+    }
+
+    .socials .content .newsletter {
+        margin-bottom: 5em;
+    }
+
+    .socials .content .newsletter form {
+        position: relative;
+    }
+
+    .socials .content .newsletter form .yourmail {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .socials .content .newsletter form .subscribe {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .about .communities {
+        /* width: 340px; */
+        width: auto;
+        line-break: auto;
+    }
+
+    .about .communities button {
+        padding: 15px 40px;
+    }
+
+    .paragraphs {
+        width: auto;
+    }
+
+    .about .screen-mockups {
+        width: 100%;
+    }
+
+    .benefits .box-benefits .container img {
+        width: 100%;
+    }
+
+    .benefits .box-benefits .container .text {
+        text-align: center;
+    }
+
+    .benefits .box-benefits .container .text h3 {
+        font-size: 1.5em;
+    }
+
+    .benefits .started h3 {
+        font-size: 1.5em;
+    }
+
+    .socials .newsletter form .subscribe {
+        flex-direction: flex-end;
+    }
+
+    footer .container {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .content {
+        padding: 0 1em;
+    }
+
+    .socials .content .newsletter,
+    .socials .content .newsletter .text,
+    .socials .content .contact,
+    .socials .content .contact .text{
+        width: auto;
+    }
+
+    .socials .content .newsletter form {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .header .head {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .head h1 {
+        margin-bottom: 2em;
+    }
+
+    .socials .content .contact .text img {
+        width: 140px;
+    }
+
+    .socials .newsletter form .yourmail {
+        padding: 15px 0 15px 15px;
+    }
+}
