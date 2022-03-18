@@ -13,8 +13,6 @@ This is a solution to the [Huddle landing page with curved sections challenge on
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
